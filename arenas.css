@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #00a2e8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #00a2e8;
+    color: white;
+}
+
+.arena-container {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет блокам переноситься на новую строку */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.arena {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* тень */
+    text-align: center; /* центрирует текст */
+    width: 300px; /* примерная ширина */
+    box-sizing: border-box; /* включает padding и border в общую ширину */
+
+}
+
+.arena img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Для центрирования */
+    margin: 0 auto 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards img {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+}
+
+
+h2 {
+  color: #00a2e8;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
